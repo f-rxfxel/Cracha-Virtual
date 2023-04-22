@@ -1,0 +1,82 @@
+body {
+    background-image: url(./assets/prograd-waves-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000F19;
+    height: 100vh;
+    overflow: hidden
+}
+
+#univas {
+    max-width: 180px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(./assets/prograd-waves-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #000F19;
+        height: 100vh;
+    }
+
+    #univas {
+        max-width: 150px;
+    }
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+button:focus .uneditable-input:focus {
+    border-color: #005f30;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+.form-check-input:checked {
+    background-color: #005f30;
+    border: 0px;
+}
+
+.btn.btn-success {
+    background-color: #005f30;
+}
+
+#submit:focus {
+    border-color: #005f30;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+
+#incorrectCredentials {
+    display: none;
+}
+
+.pill {
+    min-width: 60px;
+    background-color: #F9692B;
+    min-height: 10px;
+}
+
+#cracha {
+    max-width: 350px;
+}
