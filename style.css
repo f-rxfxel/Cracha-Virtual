@@ -7,11 +7,7 @@ body {
     overflow: hidden
 }
 
-#univas {
-    max-width: 180px;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     body {
         background-image: url(./assets/prograd-waves-mobile.svg);
         background-size: cover;
@@ -21,8 +17,13 @@ body {
     }
 
     #univas {
-        max-width: 150px;
+        max-width: 130px;
     }
+
+}
+
+#univas {
+    max-width: 200px;
 }
 
 .btn-login {
@@ -49,7 +50,7 @@ input[type="color"]:focus,
 input[type="checkbox"]:focus,
 button:focus .uneditable-input:focus {
     border-color: #005f30;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    box-shadow: none;
     outline: 0 none;
 }
 
@@ -64,19 +65,9 @@ button:focus .uneditable-input:focus {
 
 #submit:focus {
     border-color: #005f30;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
-}
-
-#incorrectCredentials {
-    display: none;
-}
-
-.pill {
-    min-width: 60px;
-    background-color: #F9692B;
-    min-height: 10px;
+    box-shadow: none;
 }
 
 #cracha {
-    max-width: 350px;
+    width: 800px;
 }
